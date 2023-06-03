@@ -1,0 +1,143 @@
+/* Styles pour les écrans de taille comprise entre 768px et 1023px (tablettes en orientation portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .home {
+        margin-left: 0;
+        width: auto;
+    }
+
+    #home-title {
+        font-size: 40px;
+    }
+
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+
+    .header .logo-header-name {
+        font-size: 24px;
+    }
+
+    .home .home-content h2 {
+        font-size: 29px;
+    }
+
+    .home .home-content p {
+        font-size: 18px;
+    }
+
+    .home .home-content .home-btn button {
+        font-size: 18px;
+        padding: 14px 28px;
+    }
+
+    .home .home-img img {
+        width: 80%;
+        height: auto;
+    }
+
+    #menu-bar {
+        display: inline-block;
+    }
+
+    .header .icon i {
+        font-size: 20px;
+        margin-right: 12px;
+    }
+
+    .header .navbar-items {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        height: 620px;
+        width: 500px;
+        background-color: var(--white);
+        transition: right 1s ease-in-out;
+    }
+
+    .header .navbar-items.active {
+        right: 0;
+    }
+
+    .header .navbar-items a {
+        display: block;
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+        margin: 24px;
+    }
+
+    .about {
+        height: 70vh;
+        background-image: none;
+        background-color: #f2f2f2;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-content {
+        width: 92vw;
+        padding-left: 4rem;
+        padding-top: 25px;
+        padding-bottom: 3.2rem;
+        font-size: var(--text-title-font-size);
+    }
+
+    .about-par {
+        font-size: 17px;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
+
+    .wrapper #right,
+    #left {
+        top: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        font-size: 1.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+    }
+
+    .container-why-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    .container-why-us .image-container img {
+        width: 50vw;
+        margin-bottom: 40px;
+    }
+
+    .title-for-mobile {
+        font-size: 35px;
+    }
+}

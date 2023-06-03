@@ -5,11 +5,259 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sweet</title>
+    <meta name="description" content="Chez Sweet'Cake, régalez-vous avec nos délicieux cupcakes">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="./css/tablet.css">
+    <link rel="stylesheet" type="text/css" href="./css/desktop.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png">
+    <link rel="apple-touch-icon"
+        href="https://cdn.glitch.com/49d34dc6-8fbd-46bb-8221-b99ffd36f1af%2Ftouchicon-180.png?v=1566411949736">
+    <title>Sweet Cake</title>
 </head>
 
 <body>
+    <div class="diagonal-background">
+        <!-- Start header here -->
+        <header class="header">
+            <div class="logo-content">
+                <a href="#" class="logo"><img src="./assets/images/logo.png" alt=""></a>
+                <h1 class="logo-name">Sweet Cake</h1>
+            </div>
+            <nav class="navbar-items">
+                <a href="#">Accueil</a>
+                <a href="#apropos">A propos</a>
+                <a href="#produits">Produits</a>
+                <a href="#nosvaleurs">Nos valeurs</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icon">
+                <i class="fas fa-bars" id="menu-bar"></i>
+            </div>
+        </header>
+        <!-- End header -->
 
+        <!-- Home section start here -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h2 data-aos="fade-right" data-aos-duration="2900" id="home-title">
+                    Bienvenue chez <br>
+                    Sweet Cake
+                </h2>
+
+                <p>Vente de cupcakes artisanaux, frais et délicieux.</p>
+                <div class="home-btn">
+                    <a href="#product"><button>Commander</button></a>
+                </div>
+            </div>
+        </section>
+        <!-- Home section end here -->
+
+        <!--About section start here-->
+        <section class="about" id="apropos">
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-content-history">
+                        <h2 class="about-title">A propos de Sweet Cake </h2>
+                        <p class="about-par">
+                            Bienvenue chez Sweet Cake, votre adresse incontournable pour des cupcakes délicieux et
+                            irrésistibles. Nos créations sucrées sont conçues avec amour et expertise pour égayer vos
+                            journées les plus spéciales. <br>
+
+                            <br>
+
+                            Chez Sweet Cake, nous croyons en la puissance d'un bon cupcake pour évoquer des
+                            souvenirs
+                            heureux et susciter des moments de pur bonheur. Chaque bouchée de nos cupcakes vous
+                            transportera dans un monde sucré rempli de saveurs et de textures exquises.
+
+                            Nous sommes fiers de préparer nos cupcakes à partir d'ingrédients de la plus haute qualité,
+                            soigneusement sélectionnés pour garantir une expérience gustative exceptionnelle. Chaque
+                            cupcake est une œuvre d'art comestible, décoré avec précision et passion pour un résultat
+                            visuellement attrayant.<br>
+
+                            <br>
+
+                            Notre équipe de pâtissiers talentueux met tout en œuvre pour offrir une variété de saveurs
+                            alléchantes, des classiques intemporels aux combinaisons audacieuses et innovantes. Quelle
+                            que soit votre préférence, nous avons le cupcake parfait qui ravira vos papilles.
+                        </p>
+                    </div>
+                    <div class="about-content-imge">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section end here -->
+
+        <!-- Slide product start here -->
+        <section class="product" id="produits">
+            <div class="teaser-title">
+                <h2 class="title-for-mobile">Les Cup'Cakes du moment</h2>
+            </div>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/images/rapesberry-cupcake.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Choco Délice</h2>
+                        <span>
+                            Insert caramel beurre salé, topping crème mascarpone, fraise ou framboise au choix.
+                        </span>
+                        <div class="card-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/images/lemon-cupcake.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Choco Délice</h2>
+                        <span>
+                            Insert caramel beurre salé, topping crème mascarpone, fraise ou framboise au choix.
+                        </span>
+                        <div class="card-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/images/matcha-cupcake.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Choco Délice</h2>
+                        <span>
+                            Insert caramel beurre salé, topping crème mascarpone, fraise ou framboise au choix.
+                        </span>
+                        <div class="card-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/images/cherry-cupcake.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Choco Délice</h2>
+                        <span>
+                            Insert caramel beurre salé, topping crème mascarpone, fraise ou framboise au choix.
+                        </span>
+                        <div class="card-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/images/passion-cupcake.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Choco Délice</h2>
+                        <span>
+                            Insert caramel beurre salé, topping crème mascarpone, fraise ou framboise au choix.
+                        </span>
+                        <div class="card-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="./assets/images/chocolate-cupcake.png" alt="img" draggable="false">
+                        </div>
+                        <h2>Choco Délice</h2>
+                        <span>
+                            Insert caramel beurre salé, topping crème mascarpone, fraise ou framboise au choix.
+                        </span>
+                        <div class="card-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </section>
+        <!-- Slide product end here -->
+
+        <!--Why us section start here-->
+        <section class="why-us-section" id="nosvaleurs">
+            <div class="container-why-us">
+                <div class="image-container">
+                    <img src="./assets/images/why-us.png" alt="Farine et fruits secs">
+                </div>
+                <div class="content-container">
+                    <h2>Pourquoi nous</h2>
+                    <p data-aos="fade-right" data-aos-duration="2000">Nous sommes passionnés par la
+                        pâtisserie et nous avons à cœur de vous offrir les meilleures délices sucrés.</p>
+                    <p data-aos="fade-left" data-aos-duration="2000">Notre équipe de pâtissiers
+                        expérimentés utilise des ingrédients de qualité pour préparer des créations uniques et
+                        savoureuses.</p>
+                    <p data-aos="fade-up" data-aos-duration="2000">Nous croyons en l'importance de la
+                        fraîcheur, de la créativité et de l'attention aux détails pour vous offrir une expérience
+                        gustative exceptionnelle.</p>
+                </div>
+            </div>
+        </section>
+        <!--Why us section end here-->
+
+        <!--Contact section start here-->
+        <section class="contact-form-section" id="contact">
+            <div class=" container-form">
+                <h2>Contactez-nous</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Votre nom</label>
+                        <input type="text" id="name" name="name" required placeholder="Votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Votre adresse e-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="Votre adresse e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" required placeholder="Votre message"></textarea>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+        <!--Contact section end here-->
+
+        <!--Footer section start here-->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="copyright">
+                    &copy; Sweet Cake <span class="copyright-year">2023</span> réalisé par Sarah'D'Level'Up. Tous droits
+                    réservés.
+                </p>
+            </div>
+        </footer>
+        <!--Footer section end here-->
+    </div>
+    <script defer src="js/index.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
