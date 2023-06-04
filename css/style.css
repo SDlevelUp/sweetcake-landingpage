@@ -175,10 +175,10 @@ html::-webkit-scrollbar-thumb {
 
 /*About*/
 .about {
-    height: 60vh;
+    height: 68vh;
     background: #f2f2f2f2;
     margin: 0 auto;
-    padding: 30px;
+    padding: 40px 20px;
     margin-top: 0;
 }
 
@@ -191,7 +191,7 @@ html::-webkit-scrollbar-thumb {
 .about-par {
     text-align: left;
     line-height: 1.7;
-    font-size: 21px;
+    font-size: 25px;
     font-family: var(--font-tertiary);
     letter-spacing: .04rem;
     width: 60vw;
@@ -420,12 +420,12 @@ section .teaser-title {
 }
 
 .content-container p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
     font-family: var(--font-tertiary);
     font-weight: 400;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
 }
 
