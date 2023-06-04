@@ -267,6 +267,10 @@
         font-size: 14px;
         padding: 0 20px;
         margin-bottom: 20px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        opacity: 1;
     }
 
     .contact-form-section {
@@ -320,13 +324,6 @@
         font-size: 25px;
         padding: 0 20px;
         margin-bottom: 20px;
-    }
-
-    .content-container p {
-        font-size: 14px;
-        margin-bottom: 20px;
-        padding: 0 20px;
-        opacity: 1;
     }
 
     footer .footer-content {
