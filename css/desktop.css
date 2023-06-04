@@ -27,7 +27,7 @@
         font-size: 60px;
     }
 
-    .home .home-content p {
+    .home .home-content span {
         font-size: 30px;
         font-family: var(--font-primary);
     }
