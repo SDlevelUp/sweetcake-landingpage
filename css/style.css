@@ -20,6 +20,8 @@
     --text-title-font-size: 48px;
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +126,7 @@ html::-webkit-scrollbar-thumb {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('/assets/images/back-img.png') no-repeat;
+    background: url('/img/back-img.webp') no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -183,80 +185,35 @@ html::-webkit-scrollbar-thumb {
 
 /*About*/
 .about {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 70vh;
-    background-image: url('../assets/images/back-img-about.png');
-    background-size: cover;
+    height: 60vh;
+    background: #f2f2f2f2;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 0;
 }
 
-.about-container {
-    width: 100%;
-}
-
-.about-content {
-    width: 60%;
-    display: flex;
-    position: absolute;
-    left: 0;
-    padding-left: 12rem;
-    padding-top: 4.5rem;
-    padding-bottom: 3.2rem;
+.about-title {
+    margin-bottom: 30px;
     font-family: var(--font-primary);
-    font-size: var(--text-title-font-size);
-    color: var(--black);
+    font-size: 42px;
 }
 
 .about-par {
     text-align: justify;
     line-height: 1.7;
-    font-size: 18px;
+    font-size: 21px;
     font-family: var(--font-tertiary);
     letter-spacing: .04rem;
-}
-
-.about-title {
-    margin-bottom: 30px;
-}
-
-
-
-/* 
-.container {
-    max-width: 600px;
-    background: #f1f1f1;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.container::after {
-    content: "";
-    display: block;
-} */
-
-/* .container h2 {
-    margin-bottom: 10px;
-}
-
-.container p {
-    line-height: 1.4;
+    width: 60vw;
+    margin-top: 40px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    float: left;
-    shape-outside: margin-box;
-    margin: 0 20px 5px 0;
-} */
+    width: 22%;
+    float: right;
+}
 
-/*Section product*/
-
+/*Product*/
 section.product {
     padding: 4% 10%;
     display: flex;
@@ -432,11 +389,10 @@ section .teaser-title {
 
 /*Why us*/
 .why-us-section {
-    padding: 80px;
     background-color: #f2f2f2;
     padding: 80px;
     color: var(--black);
-    height: 550px;
+    height: 510px;
 }
 
 .container-why-us {
@@ -446,7 +402,7 @@ section .teaser-title {
 }
 
 .image-container img {
-    max-width: 500px;
+    max-width: 470px;
     width: 100%;
     margin-left: 100px;
 }
@@ -506,6 +462,7 @@ section .teaser-title {
 
 form input,
 form textarea {
+    font-size: 18px;
     width: 100%;
     padding: 10px;
     margin-top: 8px;
@@ -524,6 +481,7 @@ form textarea {
 
 button {
     padding: 10px 20px;
+    font-size: 18px;
     border: none;
     background-color: var(--secondary-color);
     color: var(--black);
@@ -537,7 +495,7 @@ button:hover {
 }
 
 #contact-form .form-group label {
-    font-size: 17px;
+    font-size: 18px;
     font-family: var(--font-tertiary);
 }
 

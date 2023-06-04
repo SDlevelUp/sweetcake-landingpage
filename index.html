@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chez Sweet'Cake, régalez-vous avec nos délicieux cupcakes">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/mobile.css">
     <link rel="stylesheet" type="text/css" href="./css/tablet.css">
     <link rel="stylesheet" type="text/css" href="./css/desktop.css">
@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="apple-touch-icon"
         href="https://cdn.glitch.com/49d34dc6-8fbd-46bb-8221-b99ffd36f1af%2Ftouchicon-180.png?v=1566411949736">
     <title>Sweet Cake</title>
@@ -26,11 +26,13 @@
         <!-- Start header here -->
         <header class="header">
             <div class="logo-content">
-                <a href="#" class="logo"><img src="./assets/images/logo.png" alt=""></a>
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="Logo Sweet Cake">
+                </a>
                 <h1 class="logo-name">Sweet Cake</h1>
             </div>
             <nav class="navbar-items">
-                <a href="#">Accueil</a>
+                <a href="#acceuil">Accueil</a>
                 <a href="#apropos">A propos</a>
                 <a href="#produits">Produits</a>
                 <a href="#nosvaleurs">Nos valeurs</a>
@@ -43,7 +45,7 @@
         <!-- End header -->
 
         <!-- Home section start here -->
-        <section class="home" id="home">
+        <section class="home" id="acceuil">
             <div class="home-content">
                 <h2 data-aos="fade-right" data-aos-duration="2900" id="home-title">
                     Bienvenue chez <br>
@@ -60,37 +62,32 @@
 
         <!--About section start here-->
         <section class="about" id="apropos">
-            <div class="about-container">
-                <div class="about-content">
-                    <div class="about-content-history">
-                        <h2 class="about-title">A propos de Sweet Cake </h2>
-                        <p class="about-par">
-                            Bienvenue chez Sweet Cake, votre adresse incontournable pour des cupcakes délicieux et
-                            irrésistibles. Nos créations sucrées sont conçues avec amour et expertise pour égayer vos
-                            journées les plus spéciales. <br>
+            <img class="about-img" src="/img/testimg.webp" alt="img" draggable="false">
+            <div class="about-content">
+                <h2 class="about-title">A propos de Sweet Cake </h2>
+                <p class="about-par">
+                    Bienvenue chez Sweet Cake, votre adresse incontournable pour des cupcakes délicieux et
+                    irrésistibles. Nos créations sucrées sont conçues avec amour et expertise pour égayer vos
+                    journées les plus spéciales. <br>
 
-                            <br>
+                    <br>
 
-                            Chez Sweet Cake, nous croyons en la puissance d'un bon cupcake pour évoquer des
-                            souvenirs
-                            heureux et susciter des moments de pur bonheur. Chaque bouchée de nos cupcakes vous
-                            transportera dans un monde sucré rempli de saveurs et de textures exquises.
+                    Chez Sweet Cake, nous croyons en la puissance d'un bon cupcake pour évoquer des
+                    souvenirs
+                    heureux et susciter des moments de pur bonheur. Chaque bouchée de nos cupcakes vous
+                    transportera dans un monde sucré rempli de saveurs et de textures exquises.
 
-                            Nous sommes fiers de préparer nos cupcakes à partir d'ingrédients de la plus haute qualité,
-                            soigneusement sélectionnés pour garantir une expérience gustative exceptionnelle. Chaque
-                            cupcake est une œuvre d'art comestible, décoré avec précision et passion pour un résultat
-                            visuellement attrayant.<br>
+                    Nous sommes fiers de préparer nos cupcakes à partir d'ingrédients de la plus haute qualité,
+                    soigneusement sélectionnés pour garantir une expérience gustative exceptionnelle. Chaque
+                    cupcake est une œuvre d'art comestible, décoré avec précision et passion pour un résultat
+                    visuellement attrayant.<br>
 
-                            <br>
+                    <br>
 
-                            Notre équipe de pâtissiers talentueux met tout en œuvre pour offrir une variété de saveurs
-                            alléchantes, des classiques intemporels aux combinaisons audacieuses et innovantes. Quelle
-                            que soit votre préférence, nous avons le cupcake parfait qui ravira vos papilles.
-                        </p>
-                    </div>
-                    <div class="about-content-imge">
-                    </div>
-                </div>
+                    Notre équipe de pâtissiers talentueux met tout en œuvre pour offrir une variété de saveurs
+                    alléchantes, des classiques intemporels aux combinaisons audacieuses et innovantes. Quelle
+                    que soit votre préférence, nous avons le cupcake parfait qui ravira vos papilles.
+                </p>
             </div>
         </section>
         <!-- About section end here -->
@@ -105,7 +102,7 @@
                 <ul class="carousel">
                     <li class="card">
                         <div class="img">
-                            <img src="./assets/images/rapesberry-cupcake.png" alt="img" draggable="false">
+                            <img src="/img/rapesberry-cupcake.webp" alt="img" draggable="false">
                         </div>
                         <h2>Choco Délice</h2>
                         <span>
@@ -120,7 +117,7 @@
 
                     <li class="card">
                         <div class="img">
-                            <img src="./assets/images/lemon-cupcake.png" alt="img" draggable="false">
+                            <img src="/img/lemon-cupcake.webp" alt="img" draggable="false">
                         </div>
                         <h2>Choco Délice</h2>
                         <span>
@@ -135,7 +132,7 @@
 
                     <li class="card">
                         <div class="img">
-                            <img src="./assets/images/matcha-cupcake.png" alt="img" draggable="false">
+                            <img src="/img/matcha-cupcake.webp" alt="img" draggable="false">
                         </div>
                         <h2>Choco Délice</h2>
                         <span>
@@ -150,7 +147,7 @@
 
                     <li class="card">
                         <div class="img">
-                            <img src="./assets/images/cherry-cupcake.png" alt="img" draggable="false">
+                            <img src="/img/cherry-cupcake.webp" alt="img" draggable="false">
                         </div>
                         <h2>Choco Délice</h2>
                         <span>
@@ -165,7 +162,7 @@
 
                     <li class="card">
                         <div class="img">
-                            <img src="./assets/images/passion-cupcake.png" alt="img" draggable="false">
+                            <img src="/img/passion-cupcake.webp" alt="img" draggable="false">
                         </div>
                         <h2>Choco Délice</h2>
                         <span>
@@ -180,7 +177,7 @@
 
                     <li class="card">
                         <div class="img">
-                            <img src="./assets/images/chocolate-cupcake.png" alt="img" draggable="false">
+                            <img src="/img/chocolate-cupcake.webp" alt="img" draggable="false">
                         </div>
                         <h2>Choco Délice</h2>
                         <span>
@@ -202,7 +199,7 @@
         <section class="why-us-section" id="nosvaleurs">
             <div class="container-why-us">
                 <div class="image-container">
-                    <img src="./assets/images/why-us.png" alt="Farine et fruits secs">
+                    <img src="/img/why-us.webp" alt="Farine et fruits secs">
                 </div>
                 <div class="content-container">
                     <h2>Pourquoi nous</h2>
@@ -254,7 +251,7 @@
         <!--Footer section end here-->
     </div>
     <script defer src="js/index.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>

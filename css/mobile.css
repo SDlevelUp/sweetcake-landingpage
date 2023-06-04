@@ -120,39 +120,47 @@
     }
 
     .about {
+        padding: 20px;
         height: auto;
-        padding-bottom: 0;
+    }
+
+    .about-img {
+        width: 100%;
     }
 
     .about-content {
-        width: 100%;
-        position: static;
-        padding: 2rem 1.5rem;
-        text-align: center;
+        margin-top: 15px;
     }
 
     .about-par {
-        font-size: 16px;
-        line-height: 1.6;
-        margin-bottom: 24px;
+        margin-top: 10px;
+        font-size: 18px;
+        width: 100%;
     }
 
     .about-title {
-        font-size: 25px;
+        font-size: 30px;
+        text-align: center;
     }
 
-    section.product {
-        padding: 2% 5%;
-        margin-bottom: 40px;
-    }
-
-    section .title-for-mobile {
-        font-size: 25px;
+    .title-for-mobile {
+        font-size: 30px;
         margin-top: 32px;
     }
 
     .wrapper .card {
         position: relative;
+    }
+
+    section.product {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        /* height: 471px; */
+        padding-bottom: 30px;
     }
 
     .wrapper #right,
@@ -288,6 +296,7 @@
 
     .why-us-section {
         padding: 40px;
+        height: 100vh;
     }
 
     .container-why-us {
@@ -296,9 +305,8 @@
     }
 
     .image-container img {
-        max-width: 100%;
-        width: 90%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 40px;
     }
 
     .content-container {
