@@ -106,3 +106,25 @@ carousel.addEventListener("click", (event) => {
 
 
 
+// Attendre que toutes les ressources soient chargées
+window.addEventListener('load', function() {
+  // Sélectionner les éléments avec les images différées
+  var deferredImages = document.querySelectorAll('.deferred-image');
+
+  // Parcourir chaque élément
+  deferredImages.forEach(function(element) {
+    // Obtenir l'URL ou le chemin d'accès de l'image différée
+    var imageUrl = element.getAttribute('data-image-url');
+
+    // Créer un nouvel élément d'image
+    var image = new Image();
+    image.src = imageUrl;
+
+    // Masquer l'image ou la positionner hors de l'écran
+    // en ajoutant une classe CSS appropriée
+    image.classList.add('hidden');
+
+    // Insérer l'image dans le DOM, par exemple en le remplaçant par l'élément de placeholder
+    element.parentNode.replaceChild(image, element);
+  });
+});
