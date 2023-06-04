@@ -63,10 +63,6 @@
         font-size: 18px;
     }
 
-    .about {
-        height: 92vh;
-    }
-
     .content-container {
         background-color: var(--primary-color);
         display: flex;

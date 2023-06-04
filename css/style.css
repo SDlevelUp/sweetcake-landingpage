@@ -189,7 +189,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about-par {
-    text-align: justify;
+    text-align: left;
     line-height: 1.7;
     font-size: 21px;
     font-family: var(--font-tertiary);
