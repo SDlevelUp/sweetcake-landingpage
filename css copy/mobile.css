@@ -1,0 +1,340 @@
+@media (max-width: 767px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Header */
+    .header .logo-header-name {
+        font-size: 20px;
+    }
+
+    #menu-bar {
+        display: inline-block;
+    }
+
+    .header .icon i {
+        font-size: 20px;
+        margin-right: 12px;
+    }
+
+    .header .navbar-items {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        background-color: var(--white);
+        height: 80vh;
+        transition: right 1s ease-in-out;
+    }
+
+    .header .navbar-items.active {
+        right: 0;
+    }
+
+    .header .navbar-items a:hover {
+        color: var(--secondary-color);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.4s ease-in-out;
+        transform: scale(1.1);
+        font-weight: 500;
+    }
+
+    .header .navbar-items a {
+        display: block;
+        color: var(--black);
+        font-size: 14px;
+        font-weight: 500;
+        margin: 24px;
+    }
+
+    /* Home */
+    .home {
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 32px;
+    }
+
+
+    .home .home-content {
+        order: 2;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .home .home-content h2 {
+        font-size: 28px;
+    }
+
+    .home .home-content span {
+        font-size: 18px;
+    }
+
+    .home .home-content .home-btn button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .home .home-img {
+        order: 1;
+        padding: 32px;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .home .home-img img {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    /* About */
+    .about {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-content {
+        margin-top: 15px;
+    }
+
+    .about-par {
+        margin-top: 10px;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* Product */
+    section .wrapper .carousel {
+        align-items: center;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+
+
+    .footer {
+        height: 100px;
+    }
+
+    .title-for-mobile {
+        font-size: 30px;
+        margin-top: 32px;
+    }
+
+    .wrapper .card {
+        position: relative;
+    }
+
+    section.product {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .wrapper #right,
+    .wrapper #left {
+        height: 35px;
+        width: 35px;
+        font-size: 0.9rem;
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .wrapper #right {
+        right: 12px;
+    }
+
+    .wrapper #left {
+        left: 12px;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+
+    .carousel .card {
+        height: 320px;
+    }
+
+    .carousel .card .img {
+        height: 128px;
+        width: 128px;
+    }
+
+    .carousel .card h2 {
+        font-size: 24px;
+        margin: 20px 0 5px;
+    }
+
+    .carousel .card span {
+        font-size: 14px;
+        margin-top: 20px;
+        display: inline-block;
+        width: 260px;
+    }
+
+    .card {
+        position: relative;
+    }
+
+    .card .card-icons {
+        position: absolute;
+        top: 2%;
+
+        .image-container img {
+            max-width: 470px;
+            width: 100%;
+        }
+
+        right: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .card .card-icons i {
+        color: var(--white);
+        opacity: 0.6;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 17px;
+        height: 28px;
+        width: 28px;
+        background: var(--secondary-color);
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .card .card-icons i:hover {
+        opacity: 1;
+    }
+
+    .card:hover .card-icons {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .content-container {
+        max-width: 600px;
+    }
+
+    .content-container h2 {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+
+    .content-container p {
+        font-size: 14px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        opacity: 1;
+    }
+
+    /* Why Us */
+    .why-us-section {
+        padding: 40px;
+        height: 100vh;
+    }
+
+    .image-container img {
+        margin-left: 0;
+    }
+
+    .container-why-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .content-container {
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: none;
+    }
+
+    .content-container h2 {
+        font-size: 25px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Contact */
+
+    .contact-form-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .container-form h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+
+    form input,
+    form textarea {
+        min-width: unset;
+    }
+
+    form textarea {
+        height: 100px;
+    }
+
+    .contact-form-section button[type="submit"] {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}

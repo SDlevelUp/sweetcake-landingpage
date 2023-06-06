@@ -1,0 +1,76 @@
+/* Styles pour les écrans de taille minimale de 1024px (tablettes et écrans plus grands) */
+@media (min-width: 1024px) {
+
+    .header .navbar-items {
+        display: flex;
+        align-items: center;
+    }
+
+    .header .logo-header-name {
+        font-size: 45px;
+    }
+
+    .header .icon i {
+        font-size: 32px;
+        margin-right: 24px;
+    }
+
+    .header .navbar-items a {
+        margin-left: 20px;
+    }
+
+    #menu-bar .header .navbar-items a {
+        display: block;
+    }
+
+    .home .home-content h2 {
+        font-size: 60px;
+    }
+
+    .home .home-content span {
+        font-size: 30px;
+        font-family: var(--font-primary);
+    }
+
+    .home .home-content .home-btn button {
+        font-size: 20px;
+        padding: 16px 32px;
+    }
+
+    .home .home-img {
+        padding: 32px;
+    }
+
+
+    .about-content {
+        margin-top: 50px;
+    }
+
+    .about-title {
+        font-size: 42px;
+        position: relative;
+        left: 5%;
+        margin-top: 31px;
+    }
+
+    .about-par {
+        margin-left: 70px;
+    }
+
+    .content-container {
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+
+}
