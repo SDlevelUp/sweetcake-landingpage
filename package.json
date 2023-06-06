@@ -1,0 +1,19 @@
+{
+  "name": "sweetcake-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarah-berri/sweetcake-landingpage.git"
+  },
+  "author": "Sarah'D'Level'Up",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarah-berri/sweetcake-landingpage"
+  },
+  "homepage": "https://github.com/sarah-berri/sweetcake-landingpage#readme"
+}

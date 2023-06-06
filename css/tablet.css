@@ -1,5 +1,5 @@
 /* Styles pour les écrans de taille comprise entre 768px et 1023px (tablettes en orientation portrait) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 826px) {
 
     html,
     body {

@@ -285,13 +285,18 @@
         height: 100vh;
     }
 
+
     .image-container img {
         margin-left: 0;
     }
 
     .container-why-us {
         flex-direction: column;
+        display: flex;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 25px;
     }
 
     .image-container img {
