@@ -137,7 +137,7 @@ html::-webkit-scrollbar-thumb {
 .home-content .btn {
     padding: 16px 32px;
     border-radius: 8px;
-    background-color: var(--primary-color);
+    background-color: var(--black);
     color: var(--white);
     font-size: 20px;
     font-weight: bolder;
