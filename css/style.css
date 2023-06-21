@@ -415,10 +415,6 @@ section .teaser-title {
     gap: 90px;
 }
 
-.image-container img {
-    max-width: 470px;
-    width: 100%;
-}
 
 .content-container {
     background-color: var(--primary-color);
