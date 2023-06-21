@@ -112,7 +112,8 @@
     }
 
     .about-img {
-        width: 100%;
+        width: 40%;
+        margin: 0;
     }
 
     .about-content {
