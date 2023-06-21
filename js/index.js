@@ -5,8 +5,6 @@ menuIcon.addEventListener('click', function () {
   navbarItems.classList.toggle('active'); // Ajoute ou retire la classe .active
 });
 
-
-
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
@@ -88,8 +86,6 @@ carousel.addEventListener("click", (event) => {
     return;
   }
 });
-
-
 
 window.addEventListener('load', function () {
   var deferredImages = document.querySelectorAll('.deferred-image');
